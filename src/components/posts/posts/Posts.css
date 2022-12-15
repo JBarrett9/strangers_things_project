@@ -1,0 +1,90 @@
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-preview:first-child {
+  margin-top: 1rem;
+}
+
+.post-preview:last-child {
+  margin-bottom: 1rem;
+}
+
+.post-desc {
+  padding: 0 1rem;
+}
+
+.post-desc p {
+  margin: 0;
+}
+
+.post-desc p:first-child {
+  margin-top: 1rem;
+}
+
+.post-header {
+  border-radius: 1.5rem 1.5rem 0 0;
+  margin-top: -2rem;
+  padding-left: 1rem;
+  color: var(--c3);
+  height: 7.2rem;
+  background-color: var(--c1);
+  border-bottom: 0.1rem solid black;
+}
+
+.post-preview h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding-top: 0.4rem;
+  margin-bottom: 0;
+}
+
+.post-header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.post-label {
+  font-weight: 600;
+}
+
+.posts-nav {
+  background-color: var(--c2);
+  color: var(--c3);
+  height: 5rem;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.posts-nav label {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.posts-nav input {
+  background-color: var(--c3);
+  border: 0.1rem solid black;
+}
+
+.post-preview {
+  background-color: var(--c4);
+  border: 0.1rem solid black;
+  border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem #444;
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.post-preview a {
+  text-decoration: none;
+}
+
+.post-preview h2 {
+  color: white;
+}

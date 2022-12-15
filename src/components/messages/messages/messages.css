@@ -1,0 +1,33 @@
+.from {
+  background-color: var(--c2);
+  border: 0.2rem solid black;
+  border-left: none;
+  border-top: none;
+  color: var(--c3);
+  width: 20%;
+  margin-left: -1rem;
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+.msg {
+  background-color: var(--c3);
+  border-bottom: 0.1rem solid black;
+  padding-left: 1rem;
+}
+
+.msg-preview {
+  background-color: var(--c4);
+  border: 0.1rem solid black;
+  border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem #444;
+  width: 80%;
+  height: 28rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.msg-view {
+  overflow: auto;
+}

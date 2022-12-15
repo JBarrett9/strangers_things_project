@@ -1,0 +1,42 @@
+.newmessage-form {
+  background-color: var(--c2);
+  margin: auto;
+  border: 0.02rem solid black;
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 0.2rem 0.2rem 0.6rem #444;
+  margin-top: 4rem;
+  width: 100rem;
+  height: 60rem;
+}
+
+.newmessage-form button {
+  cursor: pointer;
+  float: right;
+  margin-right: 1rem;
+  background-color: var(--c1);
+  border: 0.1rem solid black;
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem #444;
+  color: var(--c3);
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  width: 14rem;
+  height: 5rem;
+  align-self: center;
+}
+
+.newmessage-form h2 {
+  background-color: var(--c1);
+  color: white;
+  margin-top: 0;
+  border-radius: 1.5rem 1.5rem 0 0;
+  padding: 1.4rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.newmessage-form textarea {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  width: 97rem;
+  height: 44rem;
+}
